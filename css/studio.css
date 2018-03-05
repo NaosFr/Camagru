@@ -1,0 +1,158 @@
+body{
+  padding-bottom: 50px;
+}
+
+.flux_studio{
+  position: relative;
+  overflow: auto;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  display: -webkit-flex;
+  padding-top: 160px;
+}
+
+/*****************************************************************
+  CAMERA
+*****************************************************************/
+
+.div_camera{
+  width: 640px;
+  padding-bottom: 20px;
+  position: relative;
+  background-color: #00000085;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 4px 4px 20px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 20px -5px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 20px -5px rgba(0,0,0,0.75);
+}
+
+.camera, .import{
+  width: 6%;
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  -webkit-transition: .5s ease-out;
+  -moz-transition: .5s ease-out;
+  -o-transition: .5s ease-out;
+  -ms-transition: .5s ease-out;
+  transition: .5s ease-out;
+}
+
+.camera:hover, .import:hover, .garbage:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+}
+
+.img_camera{
+  width: 640px;
+  height: 480px;
+  position: relative;
+  background-color: #00000085;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 4px 4px 20px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 20px -5px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 20px -5px rgba(0,0,0,0.75);
+}
+
+.camera{
+  margin-left: 20px;
+}
+
+.import{
+  right: 20px;
+}
+
+/*****************************************************************
+  FILTRE
+*****************************************************************/
+
+.form_camera{
+  width: 100%;
+  text-align: center;
+}
+
+.filter{
+    width: 10%;
+    cursor: pointer;
+    bottom: 20px;
+    margin: 0px 10px 0px 10px;
+}
+
+form, canvas{
+  display: none;
+}
+
+.filter_view{
+  width: 40%;
+  position: absolute;
+  bottom: 90px;
+  right: 25px;
+  opacity: 0;
+}
+
+
+/*****************************************************************
+  flux_picture_user
+*****************************************************************/
+
+.flux_picture_user{
+  width: 350px;
+  height: 550px;
+  padding: 5px;
+  position: relative;
+  background-color: #00000085;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 4px 4px 20px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 20px -5px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 20px -5px rgba(0,0,0,0.75);
+  margin-left: 20px;
+  overflow: auto;
+}
+
+.my_pictcure{
+  width: 100%;
+  position: relative;
+  background-color: #00000085;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  margin-bottom: 40px;
+  -webkit-box-shadow: 4px 4px 20px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 20px -5px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 20px -5px rgba(0,0,0,0.75);
+}
+
+.garbage{
+  width: 30px;
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  -webkit-transition: .5s ease-out;
+  -moz-transition: .5s ease-out;
+  -o-transition: .5s ease-out;
+  -ms-transition: .5s ease-out;
+  transition: .5s ease-out;
+}
+
+.my_img_picture{
+  background-color: transparent;
+  width: 100%!important;
+  -webkit-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.75);
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+}

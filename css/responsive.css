@@ -1,0 +1,271 @@
+/*****************************************************************
+  GRAND ECRAN
+*****************************************************************/
+
+@media (min-width: 1700px) and (max-width: 12000px){
+
+
+
+}
+
+/*****************************************************************
+  PC PORTABLE
+*****************************************************************/
+
+@media (min-width: 1024px) and (max-width: 1279px){
+
+
+}
+
+/*****************************************************************
+  TABLETTE PAYSAGE
+*****************************************************************/
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+
+}
+
+/*****************************************************************
+  TABLETTE PORTRAIT
+*****************************************************************/
+
+@media (min-width: 400px) and (max-width: 767px){
+	
+	.logo {
+    	top: 5px!important;
+    	left: 17px!important;
+    	width: 69px!important;
+	}
+
+	.pictcure {
+  	 	width: 100%!important;
+	}
+
+	.like, .chat {
+    	width: 20px!important;
+    }
+
+    .login {
+    	right: 55px!important;
+    	font-size: 20px!important;
+    	bottom: -1px!important;
+	}
+
+	.nb_like {
+    	margin-left: 51px!important;
+    	font-size: 20px!important;
+    	bottom: -2px!important;
+	}
+
+	.more {
+    	font-size: 4.5vw!important;
+	}
+
+	#page_account-register{
+    	margin-top: 75px;
+	}
+
+	#page_account-modify{
+		margin-top: 30px!important;
+	}
+	.float_menu_rigth h2 {
+    	font-size: 11px!important;
+	}
+
+	.flux_studio{
+		 -webkit-align-items: none!important;
+    	display: block!important;
+	}
+
+	.img_camera, .div_camera{
+    	width: 100%!important;
+    	height: auto!important;
+	}
+	
+	.flux_picture_user {
+    	width: 100%!important;
+		margin-left: 0px!important;
+		margin-top: 10px;
+		height: auto!important;
+		padding: 0px!important;
+	}
+
+	#alert p {
+    	font-size: 16px!important;
+	}
+	
+	.closebtn {
+    	margin-right: 40px!important;
+    	line-height: 10px!important;
+	}
+
+	#form-div {
+    	width: 80%!important;
+	}
+
+}
+
+/*****************************************************************
+  SMARTPHONE
+*****************************************************************/
+
+@media all and (max-device-width: 399px){
+	.logo {
+    	top: 7px!important;
+    	left: 10px!important;
+    	width: 40px!important;
+	}
+	
+	.float_menu_rigth {
+    	margin-right: 8px!important;
+	}
+
+	.pictcure {
+  	 	width: 100%!important;
+	}
+
+	.like, .chat {
+    	width: 20px!important;
+    }
+
+    .login {
+    	right: 55px!important;
+    	font-size: 20px!important;
+    	bottom: -1px!important;
+	}
+
+	.nb_like {
+    	margin-left: 51px!important;
+    	font-size: 20px!important;
+    	bottom: -2px!important;
+	}
+
+	.more {
+    	font-size: 4.5vw!important;
+	}
+
+	#page_account-register{
+    	margin-top: 75px;
+	}
+
+	#page_account-modify{
+		margin-top: 30px!important;
+	}
+	.float_menu_rigth h2 {
+    	font-size: 11px!important;
+	}
+
+	.flux_studio{
+		 -webkit-align-items: none!important;
+    	display: block!important;
+	}
+
+	.img_camera, .div_camera{
+    	width: 100%!important;
+    	height: auto!important;
+	}
+	
+	.flux_picture_user {
+    	width: 100%!important;
+		margin-left: 0px!important;
+		margin-top: 10px;
+		height: auto!important;
+		padding: 0px!important;
+	}
+
+	#alert p {
+    	font-size: 16px!important;
+	}
+	
+	.closebtn {
+    	margin-right: 40px!important;
+    	line-height: 10px!important;
+	}
+	
+	#form-div {
+    	width: 100%!important;
+	}
+}
+
+@media all and (max-width: 399px){
+
+	.logo {
+    	top: 7px!important;
+    	left: 10px!important;
+    	width: 40px!important;
+	}
+	
+	.float_menu_rigth {
+    	margin-right: 8px!important;
+	}
+
+	.pictcure {
+  	 	width: 100%!important;
+	}
+
+	.like, .chat {
+    	width: 20px!important;
+    }
+
+    .login {
+    	right: 55px!important;
+    	font-size: 20px!important;
+    	bottom: -1px!important;
+	}
+
+	.nb_like {
+    	margin-left: 51px!important;
+    	font-size: 20px!important;
+    	bottom: -2px!important;
+	}
+
+	.more {
+    	font-size: 4.5vw!important;
+	}
+
+	#page_account-register{
+    	margin-top: 75px;
+	}
+
+	#page_account-modify{
+		margin-top: 30px!important;
+	}
+	.float_menu_rigth h2 {
+    	font-size: 11px!important;
+	}
+
+	.flux_studio{
+		 -webkit-align-items: none!important;
+    	display: block!important;
+	}
+
+	.img_camera, .div_camera{
+    	width: 100%!important;
+    	height: auto!important;
+	}
+	
+	.flux_picture_user {
+    	width: 100%!important;
+		margin-left: 0px!important;
+		margin-top: 10px;
+		height: auto!important;
+		padding: 0px!important;
+	}
+
+	#alert p {
+    	font-size: 16px!important;
+	}
+	
+	.closebtn {
+    	margin-right: 40px!important;
+    	line-height: 10px!important;
+	}
+
+	#form-div {
+    	width: 100%!important;
+	}
+}
+
+
+

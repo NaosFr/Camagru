@@ -1,0 +1,126 @@
+#page_account-modify{
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+#page_account-modify form{
+    position: absolute;
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    -webkt-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.61), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.61), 0 1px 3px rgba(0,0,0,.08);
+}
+
+#page_account-modify form p{
+	position: relative;
+	text-align: center;
+}
+
+#page_account-modify form input[type=password], input[type=email], input[type=login], input[type=submit]{
+    position: relative;
+    text-align: center;
+    width: 90%;
+    height: 30px;
+    border: 0px;
+    left: 0px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    background-color: #f3f3f3;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    -webkt-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+#page_account-modify .modify_submit{
+    height: 55px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border: 0px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background-color: #929191;
+    border-radius: 0px 0px 5px 5px;
+    -webkt-border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    font-size: 18px;
+}
+
+#page_account-modify p{
+	margin-bottom: -2px;
+}
+
+.delete{
+    margin-top: 5px; 
+}
+
+.delete a{
+    text-decoration: none;
+    color: #c72545;
+}
+
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+#toggle {
+  position: absolute;
+  left: -9999px;
+}
+
+.toggle {
+  display: block;
+  position: relative;
+  margin: 20px;
+  padding: 10px 30px 10px 62px;
+  border: 3px solid #fff;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #dc6a69;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color .2s, box-shadow .2s;
+}
+
+.toggle::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  width: 32px;
+  border: 3px solid #fff;
+  border-radius: 100px;
+  transition: background-color .2s;
+}
+
+.toggle:hover, #toggle:focus + .toggle {
+  box-shadow: 0 0 20px rgba(0, 0, 0, .6);
+}
+
+#toggle:checked + .toggle {
+  background-color: #7fa575;
+}
+
+#toggle:checked + .toggle::before {
+  background-color: #fff;
+}

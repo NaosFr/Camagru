@@ -1,0 +1,236 @@
+/*****************************************************************
+	CONTACT
+*****************************************************************/
+
+.contactme{
+  position: absolute;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  display: -webkit-flex;
+}
+
+/*****************************************************************
+  FORMULAIRE
+*****************************************************************/
+
+input, textarea, .submit{
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  color: rgba(255, 255, 255, 0.7)!important;
+}
+
+#form-div {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 50px;
+  position: relative;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  vertical-align: middle;
+  width: 50%;
+  background: #00000059;
+}
+
+.feedback-input {
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: rgba(181, 179, 179, 0.28);
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+  background: rgba(255, 255, 255, 0.38);
+  color: white;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+  color:#30aed6;
+  border:#30aed6 solid 3px;
+}
+
+#name{
+  background-image: url(../img/user.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#name:focus{
+  background-image: url(../img/user.svg);
+  background-size: 30px 30px;
+  background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email{
+  background-image: url(../img/mail.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email:focus{
+  background-image: url(../img/mail.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#comment{
+  background-image: url(../img/edit.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  background-color: rgba(181, 179, 179, 0.5);
+}
+
+#button-blue{
+  float:left;
+  width: 100%;
+  border: #fbfbfb solid 1px;
+  -webkit-border: #fbfbfb solid 4px;
+  -moz-border: #fbfbfb solid 4px;
+  cursor:pointer;
+  color:white;
+  font-size: 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top: 0px;
+  font-weight: 700;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-appearance: none;
+  background-color: rgba(181, 179, 179, 0.28);
+}
+
+#button-blue:hover{
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+}
+
+.submit:hover {
+  color: #3498db;
+}
+  
+.ease {
+  width: 0px;
+  height: 73px;
+  background-color: rgba(251, 251, 251, 0.54);
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  -ms-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, 0.7)!important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.7)!important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(255, 255, 255, 0.7)!important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(255, 255, 255, 0.7)!important;
+}
+
+form p{
+  font-family: 'Quicksand-Light';
+      font-style: normal;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*****************************************************************
+  EXIT
+*****************************************************************/
+
+.exit_contact{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin: 0 auto;
+  z-index: 104;
+  color: black;
+  top: 40px;
+}
+
+.cross_contact{
+  position: absolute;
+  background-color: white;
+  height: 2px;
+  width: 30px;
+  cursor: pointer;
+  -o-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.cross1_contact{
+  top: 20px;
+  right: 10px;
+  -o-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.cross2_contact{
+  top: 20px;
+  right: 10px;
+  -o-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.exit_contact:hover .cross1_contact, .exit_contact:hover .cross2_contact{
+  -o-transform: rotate(0deg)!important;
+  -moz-transform: rotate(0deg)!important;
+  -webkit-transform: rotate(0deg)!important;
+  transform: rotate(0deg)!important;
+}

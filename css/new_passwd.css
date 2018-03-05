@@ -1,0 +1,77 @@
+#page_account-new{
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    display: -webkit-flex;
+    height: 100%;
+}
+
+#page_account-new form{
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    width: 400px;
+    height: 216px;
+    background-color: white;
+    border-radius: 5px;
+    -webkt-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.61), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.61), 0 1px 3px rgba(0,0,0,.08);
+}
+
+#page_account-new form p{
+	position: relative;
+	text-align: center;
+}
+
+#page_account-new form {
+    position: relative;
+    text-align: center;
+}
+
+#page_account-new form input{
+    position: relative;
+    text-align: center;
+    width: 90%;
+    height: 30px;
+    border: 0px;
+    left: 0px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    background-color: #f3f3f3;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    -webkt-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+#page_account-new .new_submit{
+    height: 55px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border: 0px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background-color: #929191;
+    border-radius: 0px 0px 5px 5px;
+    -webkt-border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    font-size: 18px;
+}
+
+#page_account-new p{
+	margin-bottom: -2px;
+}
+
+.register{
+    margin-top: 40px; 
+}
+
+.register a, .forgot a{
+    text-decoration: none;
+    color: #c72545;
+}
